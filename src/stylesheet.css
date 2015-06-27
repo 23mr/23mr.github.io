@@ -16,19 +16,14 @@ body{
 	z-index: 99999;
 	}
 
-.basic:hover a:hover{
-	margin: 0 0 2em;
-	color: #009CD2;
-	}
-
 a{
 	text-decoration: none;
+	color: #009CD2;
 }
 
 dd, a{
 	margin: 0 0 2em;
 	font-size: 1em;
-	color: #656565;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;	
