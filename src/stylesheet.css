@@ -21,6 +21,10 @@ body{
 	color: #009CD2;
 	}
 
+a{
+	text-decoration: none;
+}
+
 dd, a{
 	margin: 0 0 2em;
 	font-size: 1em;
@@ -89,7 +93,7 @@ dt strong{
 	padding-top: 25px;
 	font-size: 11px;
 	color: #ccc;
-	text-decoration: none;
+	text-decoration: inherit !important;
 	}
 
 	
