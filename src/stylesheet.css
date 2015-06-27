@@ -1,3 +1,16 @@
+.showise {
+	display: none;
+}
+
+@media only screen and (max-width : 750px) {
+.gapwise {
+	display: none;
+}
+.showise {
+	display: inline !important;
+}
+}
+
 body{
 	font-family: 'Montserrat', sans-serif;
 	padding: 0;
@@ -71,6 +84,7 @@ dt strong{
   font-size: 1em;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  white-space:nowrap;
 }
 
 .btn:hover {
